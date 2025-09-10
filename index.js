@@ -1,5 +1,5 @@
 const input = require('./lib/asynchronous/generateDate')
-const inputManual = require('./lib/asynchronous/converdManual')
+// const inputManual = require('./lib/asynchronous/converdManual')
 
 const readline = require("readline")
 
