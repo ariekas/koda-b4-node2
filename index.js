@@ -1,5 +1,5 @@
-const input = require('./lib/generateDate')
-const inputManual = require('./lib/converdManual')
+const input = require('./lib/asynchronous/generateDate')
+const inputManual = require('./lib/asynchronous/converdManual')
 
 const readline = require("readline")
 
@@ -11,6 +11,6 @@ const rl = readline.createInterface({
 
 rl.question("Masukkan tanggal (format: DD-MM-YYYY): ", (inputDate) => {
   input.converdDate(inputDate)
-  inputManual.generateDateManual(inputDate)
+  // inputManual.generateDateManual(inputDate)
   rl.close()
 })
